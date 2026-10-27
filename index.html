@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BeautySharing — temukan inspirasi skincare, makeup, dan ritual kecantikan untuk kulit yang sehat dan bercahaya.">
+  <title>BeautySharing — Your Daily Glow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="announcement text-center">A little self-care goes a long way <span>✦</span> Temukan ritual terbaikmu hari ini</div>
+  <nav class="navbar navbar-expand-lg sticky-top beauty-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="brand-mark">b.</span> beauty<span class="brand-light">sharing</span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Buka navigasi"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#discover">Discover</a></li>
+          <li class="nav-item"><a class="nav-link" href="#routine">Beauty routine</a></li>
+          <li class="nav-item"><a class="nav-link" href="#journal">Beauty journal</a></li>
+        </ul>
+        <div class="nav-actions d-flex align-items-center gap-3">
+          <button class="icon-btn" id="searchToggle" aria-label="Cari"><i class="bi bi-search"></i></button>
+          <a class="icon-btn position-relative" href="#shop" aria-label="Keranjang"><i class="bi bi-bag"></i><span class="cart-count" id="cartCount">0</span></a>
+          <a href="#discover" class="btn btn-dark rounded-pill nav-cta">Explore beauty <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 hero-copy">
+            <span class="eyebrow"><span></span> YOUR BEAUTY, YOUR STORY</span>
+            <h1>Glow in your<br><em>own</em> beautiful way.</h1>
+            <p class="hero-desc">Ruang untuk mengenal kulitmu, menemukan inspirasi, dan merayakan versi terbaik dirimu — setiap hari.</p>
+            <div class="d-flex flex-wrap gap-3 align-items-center">
+              <a href="#discover" class="btn btn-dark btn-lg rounded-pill px-4">Temukan inspirasimu <i class="bi bi-arrow-up-right ms-2"></i></a>
+              <a href="#routine" class="text-link"><span class="play-icon"><i class="bi bi-play-fill"></i></span> Explore routine</a>
+            </div>
+            <div class="hero-proof">
+              <div class="avatar-stack"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=90&h=90&fit=crop&crop=faces" alt=""><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=90&h=90&fit=crop&crop=faces" alt=""><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=90&h=90&fit=crop&crop=faces" alt=""></div>
+              <div><strong>10k+ beauty lovers</strong><small>Sharing confidence, one glow at a time.</small></div>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-visual">
+            <div class="hero-image-wrap">
+              <img class="hero-image" src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1100&q=85" alt="Perawatan wajah dan kecantikan">
+              <div class="floating-note note-top"><span class="note-icon">✦</span><div><b>Skin first</b><small>Makeup second</small></div></div>
+              <div class="floating-note note-bottom"><div class="mini-flower">✿</div><div><b>Feel good</b><small>Look like you</small></div></div>
+              <div class="hero-sticker">BE<br>YOU<br>♡</div>
+            </div>
+            <div class="hero-caption">A softer kind of beauty <span>— since always</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker-strip"><div class="ticker-track"><span>SKINCARE THAT FEELS LIKE YOU</span> ✦ <span>CONFIDENCE IS YOUR BEST GLOW</span> ✦ <span>CELEBRATE YOUR NATURAL BEAUTY</span> ✦ <span>SKINCARE THAT FEELS LIKE YOU</span> ✦</div></section>
+
+    <section class="section-space" id="discover">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="eyebrow">A WORLD OF BEAUTY</span>
+          <h2>What are you <em>into</em> today?</h2>
+          <p>Mulai dari hal kecil yang membuatmu merasa lebih baik.</p>
+        </div>
+        <div class="row g-4 category-grid">
+          <div class="col-6 col-lg-3"><a class="category-card" href="#shop"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80" alt="Skincare"><span class="category-number">01</span><div><h3>Skincare</h3><small>Care for your skin <i class="bi bi-arrow-up-right"></i></small></div></a></div>
+          <div class="col-6 col-lg-3"><a class="category-card" href="#shop"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80" alt="Makeup"><span class="category-number">02</span><div><h3>Makeup</h3><small>Play with colors <i class="bi bi-arrow-up-right"></i></small></div></a></div>
+          <div class="col-6 col-lg-3"><a class="category-card" href="#routine"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" alt="Body care"><span class="category-number">03</span><div><h3>Body care</h3><small>Little daily rituals <i class="bi bi-arrow-up-right"></i></small></div></a></div>
+          <div class="col-6 col-lg-3"><a class="category-card" href="#journal"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80" alt="Wellness"><span class="category-number">04</span><div><h3>Wellness</h3><small>Glow from within <i class="bi bi-arrow-up-right"></i></small></div></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="routine-section section-space" id="routine">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 routine-photo"><img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=1000&q=85" alt="Produk skincare di meja"><div class="photo-label">THE EVERYDAY<br>GLOW EDIT</div></div>
+          <div class="col-lg-6 routine-content">
+            <span class="eyebrow">LESS BUT BETTER</span>
+            <h2>Your routine,<br>your <em>little ritual.</em></h2>
+            <p>Rutinitas yang baik bukan tentang punya produk paling banyak. Mulai dengan memahami kebutuhan kulit dan konsisten merawatnya.</p>
+            <div class="routine-steps">
+              <div class="routine-step"><span>01</span><div><b>Cleanse gently</b><small>Bersihkan wajah tanpa membuat kulit terasa tertarik.</small></div><i class="bi bi-arrow-up-right"></i></div>
+              <div class="routine-step"><span>02</span><div><b>Hydrate & nourish</b><small>Jaga kelembapan sesuai kebutuhan kulitmu.</small></div><i class="bi bi-arrow-up-right"></i></div>
+              <div class="routine-step"><span>03</span><div><b>Protect your glow</b><small>Gunakan sunscreen di pagi dan siang hari.</small></div><i class="bi bi-arrow-up-right"></i></div>
+            </div>
+            <a href="#journal" class="btn btn-outline-dark rounded-pill px-4 mt-4">Read our beauty notes <i class="bi bi-arrow-up-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space product-section" id="shop">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-end section-top">
+          <div><span class="eyebrow">THE BEAUTY SHELF</span><h2>Little things, <em>big glow.</em></h2><p>Pilihan esensial untuk menemani ritual harianmu.</p></div>
+          <a href="#newsletter" class="text-link">Get beauty updates <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter produk">
+          <button class="filter-btn active" data-filter="all">All picks</button><button class="filter-btn" data-filter="skincare">Skincare</button><button class="filter-btn" data-filter="makeup">Makeup</button><button class="filter-btn" data-filter="bodycare">Body care</button>
+        </div>
+        <div class="row g-4" id="productGrid">
+          <div class="col-6 col-lg-3 product-item" data-category="skincare"><article class="product-card"><div class="product-image"><span class="product-tag">BEST SELLER</span><button class="wishlist-btn" aria-label="Simpan favorit"><i class="bi bi-heart"></i></button><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=85" alt="Serum skincare"></div><div class="product-info"><small>SKINCARE</small><h3>Daily Dew Serum</h3><div class="product-bottom"><b>Rp 129.000</b><button class="add-btn" data-product="Daily Dew Serum" aria-label="Tambah Daily Dew Serum"><i class="bi bi-plus-lg"></i></button></div></div></article></div>
+          <div class="col-6 col-lg-3 product-item" data-category="makeup"><article class="product-card"><div class="product-image"><span class="product-tag">NEW IN</span><button class="wishlist-btn" aria-label="Simpan favorit"><i class="bi bi-heart"></i></button><img src="https://images.unsplash.com/photo-1583241800698-e8ab01830a6a?auto=format&fit=crop&w=700&q=85" alt="Produk makeup"><div class="product-info"></div></div><div class="product-info"><small>MAKEUP</small><h3>Soft Tint Lip Cream</h3><div class="product-bottom"><b>Rp 89.000</b><button class="add-btn" data-product="Soft Tint Lip Cream" aria-label="Tambah Soft Tint Lip Cream"><i class="bi bi-plus-lg"></i></button></div></div></article></div>
+          <div class="col-6 col-lg-3 product-item" data-category="bodycare"><article class="product-card"><div class="product-image"><button class="wishlist-btn" aria-label="Simpan favorit"><i class="bi bi-heart"></i></button><img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=85" alt="Body care"><div class="product-overlay">A moment for you</div></div><div class="product-info"><small>BODY CARE</small><h3>Cloud Body Lotion</h3><div class="product-bottom"><b>Rp 99.000</b><button class="add-btn" data-product="Cloud Body Lotion" aria-label="Tambah Cloud Body Lotion"><i class="bi bi-plus-lg"></i></button></div></div></article></div>
+          <div class="col-6 col-lg-3 product-item" data-category="skincare"><article class="product-card"><div class="product-image"><span class="product-tag">EDITOR'S PICK</span><button class="wishlist-btn" aria-label="Simpan favorit"><i class="bi bi-heart"></i></button><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=85" alt="Moisturizer"><div class="product-overlay">Hydration is key</div></div><div class="product-info"><small>SKINCARE</small><h3>Barrier Cloud Cream</h3><div class="product-bottom"><b>Rp 145.000</b><button class="add-btn" data-product="Barrier Cloud Cream" aria-label="Tambah Barrier Cloud Cream"><i class="bi bi-plus-lg"></i></button></div></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section"><div class="container text-center"><span class="quote-mark">“</span><h2>Beauty is not about<br>being someone else. It's about<br><em>feeling like yourself.</em></h2><p>— A little reminder from BeautySharing</p></div></section>
+
+    <section class="section-space journal-section" id="journal">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-end section-top"><div><span class="eyebrow">THE BEAUTY JOURNAL</span><h2>Stories worth <em>sharing.</em></h2><p>Insight sederhana untuk perjalanan cantikmu.</p></div><a href="#newsletter" class="text-link">Explore journal <i class="bi bi-arrow-up-right"></i></a></div>
+        <div class="row g-4">
+          <div class="col-md-6"><a class="journal-card" href="#newsletter"><img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=1000&q=85" alt="Skincare routine"><div class="journal-meta">SKINCARE <span>5 MIN READ</span></div><h3>Skin barrier 101: memahami fondasi kulit yang sehat</h3><span class="journal-link">Read article <i class="bi bi-arrow-up-right"></i></span></a></div>
+          <div class="col-md-6"><a class="journal-card" href="#newsletter"><img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=1000&q=85" alt="Natural makeup"><div class="journal-meta">MAKEUP <span>4 MIN READ</span></div><h3>Everyday makeup: tampil segar dengan langkah simpel</h3><span class="journal-link">Read article <i class="bi bi-arrow-up-right"></i></span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section" id="newsletter"><div class="container"><div class="newsletter-box"><div><span class="eyebrow">A NOTE FROM US</span><h2>A little glow<br>in your <em>inbox.</em></h2><p>Dapatkan inspirasi, tips, dan cerita kecantikan pilihan.</p></div><form id="newsletterForm" class="newsletter-form"><label for="emailInput">Your email address</label><div class="input-wrap"><input type="email" id="emailInput" placeholder="nama@email.com" required><button type="submit" aria-label="Berlangganan"><i class="bi bi-arrow-up-right"></i></button></div><small id="formMessage">No spam, just good beauty energy. ♡</small></form></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="row gy-4 align-items-center"><div class="col-md-5"><a class="navbar-brand" href="#"><span class="brand-mark">b.</span> beauty<span class="brand-light">sharing</span></a><p class="footer-note">A space to learn, explore, and celebrate your own kind of beauty.</p></div><div class="col-md-4"><div class="footer-links"><a href="#discover">Discover</a><a href="#routine">Routine</a><a href="#journal">Journal</a><a href="#newsletter">Contact</a></div></div><div class="col-md-3 text-md-end"><div class="social-links"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a><a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></div></div></div><div class="footer-bottom"><span>© 2026 BeautySharing. Made with love.</span><span>Be kind to your skin — and yourself.</span></div></div></footer>
+
+  <div class="search-panel" id="searchPanel"><div class="container"><form id="searchForm"><i class="bi bi-search"></i><input id="searchInput" type="search" placeholder="Cari inspirasi kecantikan..."><button type="button" id="closeSearch" aria-label="Tutup pencarian"><i class="bi bi-x-lg"></i></button></form><small>Try: skincare, skin barrier, makeup</small></div></div>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="beautyToast" class="toast border-0" role="status"><div class="toast-body"><i class="bi bi-check-circle-fill me-2"></i><span id="toastText">Added to your bag</span><button type="button" class="btn-close ms-auto" data-bs-dismiss="toast" aria-label="Tutup"></button></div></div></div>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
